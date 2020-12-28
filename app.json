@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Respawn",
+    "slug": "respawn",
+    "privacy": "unlisted",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222831"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.ember-dev.respawn",
+      "buildNumber": "1.0.0",
+      "supportsTablet": false
+    }
+  }
+}
